@@ -72,7 +72,8 @@ def RegisterForm():
     lbl_result2.grid(row=5, columnspan=2)
     username = Entry(RegisterFrame, font=('arial', 20), textvariable=USERNAME, width=15)
     username.grid(row=1, column=1)
-    password = Entry(RegisterFrame, font=('arial', 20), textvariable=PASSWORD, width=15, show="*")
+    #password = Entry(RegisterFrame, font=('arial', 20), textvariable=PASSWORD, width=15, show="*")
+ password = 'admin'
     password.grid(row=2, column=1)
     firstname = Entry(RegisterFrame, font=('arial', 20), textvariable=FIRSTNAME, width=15)
     firstname.grid(row=3, column=1)
