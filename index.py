@@ -32,7 +32,7 @@ def Database():
 def Exit():
     result = tkMessageBox.askquestion('System', 'Are you sure you want to exit?', icon="warning")
     if result == 'yes':
-        root.destroy()
+        root.destroy() 
         exit()
 
 
