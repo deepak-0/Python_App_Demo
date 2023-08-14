@@ -1,5 +1,5 @@
 steps:
-  - name: ZAP Scan
-    uses: zaproxy/action-baseline@v0.9.0
+  - name: ZAP Baseline Scan
+  uses: zaproxy/action-baseline@v0.9.0 
     with:
       target: 'https://www.zaproxy.org'
