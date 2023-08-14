@@ -1,5 +1,9 @@
 steps:
-  - name: ZAP Baseline Scan
-  uses: zaproxy/action-baseline@v0.9.0 
-    with:
-      target: 'https://www.zaproxy.org'
+name: OWASP ZAP Baseline Scan
+      uses: zaproxy/action-baseline@v0.9.0
+      with:
+        # GitHub Token to create issues in the repository
+        token: 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
+
+        # Target URL
+        target: Zap.org
