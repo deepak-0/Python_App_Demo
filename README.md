@@ -1,0 +1,1 @@
+DevSecOps CI/CD Automation Project files and repositories along with the Actions workflow can be found in this repository. The DevSecOps framework uses test python application to test application on SCA and SAST. It is done using SonarQube tool which is hosted on Azure VM. 
